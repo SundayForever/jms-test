@@ -18,6 +18,19 @@
 2.2.必须先订阅才会产生消息
 ```
 
+### jms接口直接关系：
+```
+ConnectionFactory create Connection
+Connection create Session
+Session create MessageProducer
+Session create MessageConsumer
+MessageProducer Send to Destination
+MessageConsumer Receive from Destination
+Session create Message
+```
+
+
+
 ### 中间件对比：
 
 |对比  | ActiveMQ | RabbitMQ | Kafaka |
